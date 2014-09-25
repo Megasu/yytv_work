@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import "lego/lego";
+html {
+    overflow-y: scroll;
+}
+body {
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+    a {
+        text-decoration: none;
+        color: #999;
+        &:hover {
+            text-decoration: underline;
+            color: #666;
+        }
+    }
+}
+
+
